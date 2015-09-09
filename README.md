@@ -1,5 +1,5 @@
 # TerminalTranslator
-terminal translator v1.0
+Terminal Translator v1.0
 命令行中英翻译脚本
 
 KEY申请:  http://fanyi.youdao.com/openapi
