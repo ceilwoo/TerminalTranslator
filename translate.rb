@@ -27,10 +27,13 @@ begin
 	puts "\n"
 	puts "[query]".ljust(11) + res_json["query"]
 	
-	res_json["basic"].each do |k,v|
-		output_phonetic += "(#{k}) #{v}" + ";" if k.include?("phonetic")
-		output_explains = "[#{k}]".ljust(11) +  res_json["basic"]["explains"].join("\n           ") if k == "explains"
+	if res_json["basic"]
+		res_json["basic"].each do |k,v|
+			output_phonetic += "(#{k}) #{v}" + ";" if k.include?("phonetic")
+			output_explains = "[#{k}]".ljust(11) +  res_json["basic"]["explains"].join("\n           ") if k == "explains"
+		end
 	end
+	
 	puts output_explains
 	print "[Web]".ljust(11)
 	res_json["web"].each do |f|
