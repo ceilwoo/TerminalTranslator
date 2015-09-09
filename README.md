@@ -10,4 +10,4 @@ ruby translate.rb 要查询的单词
 
 <h4>建议使用方式：</h4>
 在.bash_profile增加一行 alias tl="ruby /存放路径/translate.rb" </br>
-然后就可以用 tl XXX 查询翻译了
+然后命令行里啪啪啪的敲个 tl XXX 就可以查单词了
