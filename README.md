@@ -13,6 +13,6 @@ ruby translate.rb 要查询的单词
 然后命令行里啪啪啪的敲个 tl XXX 就可以查单词了
 
 <h4>更新日志：</h4>
-v1.1 20151106	  add voice for mac os, add '-v' to set actived, Example: ruby translate.rb ceil -v
-                support short sentence
-v1.0 20150905   init
+<p>v1.1 20151106	  add voice for mac os, add '-v' to set actived, Example: ruby translate.rb ceil -v
+                <br/ >support short sentence</p>
+<p>v1.0 20150905   init</p>
