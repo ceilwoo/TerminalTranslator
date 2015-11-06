@@ -11,3 +11,8 @@ ruby translate.rb 要查询的单词
 <h4>建议使用方式：</h4>
 在.bash_profile增加一行 alias tl="ruby /存放路径/translate.rb" </br>
 然后命令行里啪啪啪的敲个 tl XXX 就可以查单词了
+
+<h4>更新日志：</h4>
+v1.1 20151106	  add voice for mac os, add '-v' to set actived, Example: ruby translate.rb ceil -v
+                support short sentence
+v1.0 20150905   init
