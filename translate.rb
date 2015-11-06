@@ -1,10 +1,13 @@
+####################################
 # terminal translator (en <-> chs)
 # 命令行中英翻译机
-# by ceil 20150905
-# ----------------
-# v1.1 add voice for mac os, add '-v' to active, Example: ruby translate.rb ceil -v
-#      support short sentence
-# v1.0 20150905
+# by ceilwoo@gmail.com
+####################################
+#---- v1.1 ---- [20151106]
+#	add voice for mac os, add '-v' to set actived, Example: ruby translate.rb ceil -v
+#	support short sentence
+#---- v1.0 ---- [20150905]
+# 	initialization
 
 require 'net/http'
 require 'uri'
