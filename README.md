@@ -2,6 +2,9 @@
 Terminal Translator v1.0
 命令行中英翻译脚本
 
+# 更新历史
+v1.1 新增mac系统下的发音，使用参数-v
+
 KEY申请:  http://fanyi.youdao.com/openapi
 替换脚本的key和keyfrom值
 
